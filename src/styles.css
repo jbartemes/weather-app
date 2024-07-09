@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(241, 196, 207) 0%,
+    rgb(196, 180, 239) 100%
+  );
+  font-family: "Poppins", sans-serif;
+  color: gray;
+}
+
+h1 {
+  margin: 20px 0 5px;
+  font-size: 38px;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 300px);
+}
+
+div.box {
+  background-color: white;
+  margin: 200px 150px;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+.current-weather {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.forecast-weather.gauge {
+  display: flex;
+  justify-content: end;
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  bottom: 50px;
+}
+
+.weather-emoji {
+  font-size: 25px;
+  margin: 6px;
+}
+
+.weather-unit {
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 0;
+}
+
+.humidity {
+  color: #c5aed3;
+}
+
+.wind {
+  color: #c5aed3;
+}
+
+#search-input {
+  width: 74%;
+  background-color: #f2f0f0;
+  border: none;
+  padding: 10px;
+  border-radius: 20px 0 0 20px;
+  text-align: center;
+}
+.search-button {
+  background-color: #c5aed3;
+  color: white;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  padding: 10px 30px;
+  font-size: 12px;
+}
+
+.search-button:hover {
+  background-color: #f5c0d7;
+}
+
+a {
+  color: #c5aed3;
+}
+
+a:hover {
+  color: #f5c0d7;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+}
